@@ -2,15 +2,11 @@
 tasks:
     - init: >
           gp open README.md;
-# pip3 install -r "requirements.txt";
-# pip install -r "requirements.txt";
           python3 src/app.py;
       command: >
           gp open README.md;
-# pip3 install -r "requirements.txt";
           pip install -r "requirements.txt";
           pip install --upgrade pip;
-# python3 src/app.py
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
